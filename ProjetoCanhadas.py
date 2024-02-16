@@ -382,7 +382,9 @@ def carregar_analise_2_valores(uploaded_file, novo_caminho, escolha, quantidade_
         Analise2.main(novo_caminho, valor_primario, ordem_planilhas, valor_secundario, ordem_planilhas2)
         progresso += 35
         yield progresso
-        
+
+st.set_page_config(page_title="Projeto Canhadas", page_icon="servmarico.ico") 
+
 def main():
 
     hide_menu_style = """
