@@ -383,8 +383,6 @@ def carregar_analise_2_valores(uploaded_file, novo_caminho, escolha, quantidade_
         progresso += 35
         yield progresso
 
-st.set_page_config(page_title="Projeto Canhadas", page_icon="servmarico.ico") 
-
 def main():
 
     hide_menu_style = """
@@ -395,7 +393,7 @@ def main():
             </style>
             """
     st.markdown(hide_menu_style, unsafe_allow_html=True)
-
+    
     st.title("SERVMAR")
     st.subheader("Projeto Canhadas")
     
