@@ -39,7 +39,7 @@ def main(uploaded_file, novo_caminho):
 
             #Caso o titulo "descricao_metodo" tiver mais de 31 caracteres ele pega somente os 3 primeiros caracteceres 
             if len(descricao_metodo) > 31:
-                aba_titulo = descricao_metodo[:3]
+                aba_titulo = descricao_metodo[:4]
             else:
                 aba_titulo = descricao_metodo
 
